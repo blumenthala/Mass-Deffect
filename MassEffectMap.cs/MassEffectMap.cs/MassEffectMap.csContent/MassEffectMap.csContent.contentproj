@@ -49,8 +49,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="True Normandy.png">
-      <Name>True Normandy</Name>
+    <Compile Include="Normandy.png">
+      <Name>normandy</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>

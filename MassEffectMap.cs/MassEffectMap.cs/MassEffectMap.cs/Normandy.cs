@@ -26,6 +26,32 @@ namespace MassEffectMap.cs
         /// <summary>
         /// Allows the game component to perform any initialization it needs to before starting
         /// to run.  This is where it can query for any required services and load content.
+
+        private void HandleKeyboardInput(KeyboardState keyState)
+        {
+            if (keyState.IsKeyDown(Keys.Up))
+            {
+                normandyShip.Velocity += new Vector2(0, -1);
+            }
+
+            if (keyState.IsKeyDown(Keys.Down))
+            {
+                normandyShip.Velocity += new Vector2(0, 1);
+            }
+
+            if (keyState.IsKeyDown(Keys.Left))
+            {
+                normandyShip.Velocity += new Vector2(-1, 0);
+            }
+
+            if (keyState.IsKeyDown(Keys.Right))
+            {
+                normandyShip.Velocity += new Vector2(1, 0);
+            }
+        }
+
+     
+
         /// </summary>
         public override void Initialize()
         {

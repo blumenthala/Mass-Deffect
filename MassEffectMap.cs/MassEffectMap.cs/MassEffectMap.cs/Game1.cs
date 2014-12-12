@@ -19,6 +19,8 @@ namespace MassEffectMap.cs
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
         Texture2D background;
+        Texture2D normandy;
+
         
         public Game1()
         {
@@ -56,6 +58,7 @@ namespace MassEffectMap.cs
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
             background = Content.Load<Texture2D>("background");
+            normandy = Content.Load<Texture2D>("normandy");
             
 
             // TODO: use this.Content to load your game content here
