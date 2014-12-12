@@ -7,8 +7,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\MassEffectMap.cs\MassEffectMap.cs\MassEffectMap.cs\bin\x86\Debug\Content\background.xnb</Output>
-      <Time>2014-12-11T07:36:43.7278-05:00</Time>
+      <Output>C:\Users\eahscs\Documents\GitHub\Mass-Deffect\MassEffectMap.cs\MassEffectMap.cs\MassEffectMap.cs\bin\x86\Debug\Content\background.xnb</Output>
+      <Time>2014-12-12T07:34:33.814-05:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -16,10 +16,10 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\eahscs\Documents\GitHub\MassEffectMap.cs\MassEffectMap.cs\MassEffectMap.csContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\eahscs\Documents\GitHub\MassEffectMap.cs\MassEffectMap.cs\MassEffectMap.cs\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\eahscs\Documents\GitHub\MassEffectMap.cs\MassEffectMap.cs\MassEffectMap.csContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\eahscs\Documents\GitHub\MassEffectMap.cs\MassEffectMap.cs\MassEffectMap.cs\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\eahscs\Documents\GitHub\Mass-Deffect\MassEffectMap.cs\MassEffectMap.cs\MassEffectMap.csContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\eahscs\Documents\GitHub\Mass-Deffect\MassEffectMap.cs\MassEffectMap.cs\MassEffectMap.cs\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\eahscs\Documents\GitHub\Mass-Deffect\MassEffectMap.cs\MassEffectMap.cs\MassEffectMap.csContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\eahscs\Documents\GitHub\Mass-Deffect\MassEffectMap.cs\MassEffectMap.cs\MassEffectMap.cs\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
