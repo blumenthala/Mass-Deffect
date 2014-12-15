@@ -59,7 +59,7 @@ namespace MassEffectMap.cs
             spriteBatch = new SpriteBatch(GraphicsDevice);
             background = Content.Load<Texture2D>("background");
             normandy = Content.Load<Texture2D>("normandy");
-            
+             
 
             // TODO: use this.Content to load your game content here
         }
