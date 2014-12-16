@@ -12,3 +12,4 @@ C:\Users\eahscs\Documents\GitHub\Mass-Deffect\MassEffectMap.cs\MassEffectMap.cs\
 C:\Users\eahscs\Documents\GitHub\Mass-Deffect\MassEffectMap.cs\MassEffectMap.cs\MassEffectMap.cs\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\eahscs\Documents\GitHub\Mass-Deffect\MassEffectMap.cs\MassEffectMap.cs\MassEffectMap.cs\obj\x86\Debug\MassEffectMap.cs.exe
 C:\Users\eahscs\Documents\GitHub\Mass-Deffect\MassEffectMap.cs\MassEffectMap.cs\MassEffectMap.cs\obj\x86\Debug\MassEffectMap.cs.pdb
+C:\Users\eahscs\Documents\GitHub\Mass-Deffect\MassEffectMap.cs\MassEffectMap.cs\MassEffectMap.cs\bin\x86\Debug\Content\Normandy.xnb

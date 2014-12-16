@@ -15,60 +15,53 @@ namespace MassEffectMap.cs
     /// <summary>
     /// This is a game component that implements IUpdateable.
     /// </summary>
-    public class Normandy : Microsoft.Xna.Framework.GameComponent
+    public class Normandy
     {
-        public Normandy(Game game)
-            : base(game)
+        Texture2D Mormandy;
+        Sprite norman;
+        private Normandy normandy;
+        public Normandy(Texture2D text)
         {
-            // TODO: Construct any child components here
+            Mormandy = text;
+            norman = new Sprite(new Vector2(300, 300), Mormandy, new Rectangle(0, 0, 194, 672), Vector2.Zero);
         }
 
-        /// <summary>
-        /// Allows the game component to perform any initialization it needs to before starting
-        /// to run.  This is where it can query for any required services and load content.
+      
 
         private void HandleKeyboardInput(KeyboardState keyState)
         {
             if (keyState.IsKeyDown(Keys.Up))
             {
-                normandyShip.Velocity += new Vector2(0, -1);
+                norman.Velocity += new Vector2(0, -1);
             }
 
             if (keyState.IsKeyDown(Keys.Down))
             {
-                normandyShip.Velocity += new Vector2(0, 1);
+                norman.Velocity += new Vector2(0, 1);
             }
 
             if (keyState.IsKeyDown(Keys.Left))
             {
-                normandyShip.Velocity += new Vector2(-1, 0);
+                norman.Velocity += new Vector2(-1, 0);
             }
 
             if (keyState.IsKeyDown(Keys.Right))
             {
-                normandyShip.Velocity += new Vector2(1, 0);
+                norman.Velocity += new Vector2(1, 0);
             }
         }
 
      
 
         /// </summary>
-        public override void Initialize()
+        public void draw(SpriteBatch spritebatch)
         {
-            // TODO: Add your initialization code here
-
-            base.Initialize();
+            norman.Draw(spritebatch);
         }
-
-        /// <summary>
-        /// Allows the game component to update itself.
-        /// </summary>
-        /// <param name="gameTime">Provides a snapshot of timing values.</param>
-        public override void Update(GameTime gameTime)
+        public void Update(GameTime gameTime)
         {
-            // TODO: Add your update code here
 
-            base.Update(gameTime);
+            norman.Update(gameTime);
         }
     }
 }

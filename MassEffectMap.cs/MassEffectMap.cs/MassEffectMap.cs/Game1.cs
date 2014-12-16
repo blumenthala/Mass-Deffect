@@ -1,8 +1,8 @@
 using System;
 using System.Collections.Generic;
+using Microsoft.Xna.Framework.Audio;
 using System.Linq;
 using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Audio;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.GamerServices;
 using Microsoft.Xna.Framework.Graphics;
@@ -19,7 +19,8 @@ namespace MassEffectMap.cs
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
         Texture2D background;
-        Texture2D normandy;
+        Normandy normandy;
+        Texture2D normantext;
 
         
         public Game1()
@@ -58,8 +59,10 @@ namespace MassEffectMap.cs
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
             background = Content.Load<Texture2D>("background");
-            normandy = Content.Load<Texture2D>("normandy");
-             
+            normantext = Content.Load<Texture2D>("normandy");
+
+            normandy = new Normandy(normantext);
+           
 
             // TODO: use this.Content to load your game content here
         }
@@ -83,7 +86,7 @@ namespace MassEffectMap.cs
             // Allows the game to exit
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
                 this.Exit();
-            
+            normandy.Update(gameTime);
             // TODO: Add your update logic here
 
             base.Update(gameTime);
@@ -98,8 +101,9 @@ namespace MassEffectMap.cs
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
             spriteBatch.Begin();
-
-            spriteBatch.Draw(background, Vector2.Zero , Color.White);
+           
+            spriteBatch.Draw(background, Vector2.Zero , Color.White); 
+            normandy.draw(spriteBatch);
             // TODO: Add your drawing code here
             spriteBatch.End();
             base.Draw(gameTime);
