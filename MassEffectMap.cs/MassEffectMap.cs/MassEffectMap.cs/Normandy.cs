@@ -22,7 +22,7 @@ namespace MassEffectMap.cs
         private float playerSpeed = 160.0f;
         private Rectangle playerAreaLimit;
         Rectangle screenBounds;
-
+        
 
         public Normandy(Texture2D text)
         {
@@ -55,21 +55,25 @@ namespace MassEffectMap.cs
             if (keyState.IsKeyDown(Keys.Up))
             {
                 norman.Velocity += new Vector2(0, -1);
+                norman.Rotation = 0.1f;
             }
 
             if (keyState.IsKeyDown(Keys.Down))
             {
                 norman.Velocity += new Vector2(0, 1);
+                norman.Rotation = -3.0f;
             }
 
             if (keyState.IsKeyDown(Keys.Left))
             {
                 norman.Velocity += new Vector2(-1, 0);
+                norman.Rotation = -1.6f;
             }
 
             if (keyState.IsKeyDown(Keys.Right))
             {
                 norman.Velocity += new Vector2(1, 0);
+                norman.Rotation = 1.6f;
             }
         }
 
@@ -104,9 +108,8 @@ namespace MassEffectMap.cs
 
             norman.Location = location;
         }
-     
-
-        /// </summary>
+   
+       
         public void draw(SpriteBatch spritebatch)
         {
             norman.Draw(spritebatch);
@@ -114,7 +117,11 @@ namespace MassEffectMap.cs
         public void Update(GameTime gameTime)
         {
 
+
             norman.Update(gameTime);
+
+
+            norman.Rotation = 0.0f;
 
             norman.Velocity = Vector2.Zero;
 
@@ -124,8 +131,8 @@ namespace MassEffectMap.cs
             norman.Velocity.Normalize();
             norman.Velocity *= playerSpeed;
 
-            norman.Update(gameTime);
-            imposeMovementLimits();
+            
+            
 
         }
     }

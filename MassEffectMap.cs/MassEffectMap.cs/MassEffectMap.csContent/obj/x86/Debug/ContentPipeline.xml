@@ -8,7 +8,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Mass-Deffect\MassEffectMap.cs\MassEffectMap.cs\MassEffectMap.cs\bin\x86\Debug\Content\background.xnb</Output>
-      <Time>2014-12-18T07:31:32.9674-05:00</Time>
+      <Time>2014-12-19T07:25:03.0636-05:00</Time>
     </Item>
     <Item>
       <Source>Normandy.png</Source>
@@ -17,7 +17,34 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Mass-Deffect\MassEffectMap.cs\MassEffectMap.cs\MassEffectMap.cs\bin\x86\Debug\Content\Normandy.xnb</Output>
-      <Time>2014-12-18T07:31:32.9344-05:00</Time>
+      <Time>2014-12-19T07:25:03.0396-05:00</Time>
+    </Item>
+    <Item>
+      <Source>circle.png</Source>
+      <Name>circle</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\Mass-Deffect\MassEffectMap.cs\MassEffectMap.cs\MassEffectMap.cs\bin\x86\Debug\Content\circle.xnb</Output>
+      <Time>2014-12-19T08:01:58.9786-05:00</Time>
+    </Item>
+    <Item>
+      <Source>diamond.png</Source>
+      <Name>diamond</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\Mass-Deffect\MassEffectMap.cs\MassEffectMap.cs\MassEffectMap.cs\bin\x86\Debug\Content\diamond.xnb</Output>
+      <Time>2014-12-19T08:01:58.9786-05:00</Time>
+    </Item>
+    <Item>
+      <Source>star.png</Source>
+      <Name>star</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\Mass-Deffect\MassEffectMap.cs\MassEffectMap.cs\MassEffectMap.cs\bin\x86\Debug\Content\star.xnb</Output>
+      <Time>2014-12-19T08:01:58.9786-05:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>

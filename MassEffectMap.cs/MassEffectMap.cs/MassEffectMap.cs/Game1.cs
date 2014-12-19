@@ -21,7 +21,7 @@ namespace MassEffectMap.cs
         Texture2D background;
         Normandy normandy;
         Texture2D normantext;
-
+        ParticleEngine2D particleEngine;
         
         public Game1()
         {
@@ -60,7 +60,11 @@ namespace MassEffectMap.cs
             spriteBatch = new SpriteBatch(GraphicsDevice);
             background = Content.Load<Texture2D>("background");
             normantext = Content.Load<Texture2D>("normandy");
-
+            List<Texture2D> textures = new List<Texture2D>();
+            textures.Add(Content.Load<Texture2D>("circle"));
+            textures.Add(Content.Load<Texture2D>("star"));
+            textures.Add(Content.Load<Texture2D>("diamond"));
+            particleEngine = new ParticleEngine(textures, new Vector2(400, 240));
             normandy = new Normandy(normantext);
            
 
@@ -88,7 +92,8 @@ namespace MassEffectMap.cs
                 this.Exit();
             normandy.Update(gameTime);
             // TODO: Add your update logic here
-
+            particleEngine.EmitterLocation = new Vector2(Mouse.GetState().X, Mouse.GetState().Y);
+            particleEngine.Update();
             base.Update(gameTime);
         }
 
@@ -101,7 +106,7 @@ namespace MassEffectMap.cs
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
             spriteBatch.Begin();
-           
+            particleEngine.Draw(spriteBatch);
             spriteBatch.Draw(background, Vector2.Zero , Color.White); 
             normandy.draw(spriteBatch);
             // TODO: Add your drawing code here
