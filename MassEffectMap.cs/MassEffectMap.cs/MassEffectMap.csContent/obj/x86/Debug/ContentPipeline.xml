@@ -8,7 +8,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Mass-Deffect\MassEffectMap.cs\MassEffectMap.cs\MassEffectMap.cs\bin\x86\Debug\Content\Normandy.xnb</Output>
-      <Time>2015-01-05T07:35:46.1904-05:00</Time>
+      <Time>2015-01-06T07:28:29.0452-05:00</Time>
     </Item>
     <Item>
       <Source>circle.png</Source>
@@ -17,7 +17,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Mass-Deffect\MassEffectMap.cs\MassEffectMap.cs\MassEffectMap.cs\bin\x86\Debug\Content\circle.xnb</Output>
-      <Time>2015-01-05T07:24:57.1434-05:00</Time>
+      <Time>2015-01-06T07:28:29.0942-05:00</Time>
     </Item>
     <Item>
       <Source>diamond.png</Source>
@@ -26,7 +26,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Mass-Deffect\MassEffectMap.cs\MassEffectMap.cs\MassEffectMap.cs\bin\x86\Debug\Content\diamond.xnb</Output>
-      <Time>2015-01-05T07:24:57.1444-05:00</Time>
+      <Time>2015-01-06T07:28:29.0942-05:00</Time>
     </Item>
     <Item>
       <Source>star.png</Source>
@@ -35,7 +35,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Mass-Deffect\MassEffectMap.cs\MassEffectMap.cs\MassEffectMap.cs\bin\x86\Debug\Content\star.xnb</Output>
-      <Time>2015-01-05T07:24:57.1534-05:00</Time>
+      <Time>2015-01-06T07:28:29.0972-05:00</Time>
     </Item>
     <Item>
       <Source>background.png</Source>
@@ -44,7 +44,16 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Mass-Deffect\MassEffectMap.cs\MassEffectMap.cs\MassEffectMap.cs\bin\x86\Debug\Content\background.xnb</Output>
-      <Time>2015-01-05T08:15:25.7954-05:00</Time>
+      <Time>2015-01-06T07:28:29.0692-05:00</Time>
+    </Item>
+    <Item>
+      <Source>backgroundTwo.png</Source>
+      <Name>backgroundTwo</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\Mass-Deffect\MassEffectMap.cs\MassEffectMap.cs\MassEffectMap.cs\bin\x86\Debug\Content\backgroundTwo.xnb</Output>
+      <Time>2015-01-06T07:28:29.0932-05:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
